@@ -28,9 +28,9 @@ function Solucao1() {
         </div>
         <div className={styles.psicologo2}>
             <p className={styles.infoPsi2}><b>
-                Carla Fernanda Simão 
+                Sabrina Nishimiya
                 <br />
-                (16) 99728-7615 
+                (17) 99617-4868
             </b></p>
         </div>
         <div className={styles.avalie}>
