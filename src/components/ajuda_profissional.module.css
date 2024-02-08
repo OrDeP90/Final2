@@ -1,4 +1,4 @@
-.Texto2 {
+.Texto2 p {
     /* Aqui estão alguns profissionais recomendados em São Carlos: */
 
     position: absolute;
@@ -27,7 +27,7 @@
     z-index: 2;
 }
 
-.infoPsi1 {
+.infoPsi1 p {
     position: absolute;
     top: -15px;
     left: -120px;
@@ -63,7 +63,7 @@
     align-items: center;
 }
 
-.infoPsi2 {
+.infoPsi2 p b{
     position: absolute;
     top: -15px;
     left: -120px;
@@ -73,6 +73,7 @@
 .psicologo2 {
     /* Carla Fernanda Simão (16) 99728-7615 */
 
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -335,8 +336,8 @@
     text-align: center;
 }
 
-.profissionais {
-    top: 10px;
+.profissionais b{ 
+    top: -100px;
     left: 0;
     text-align: left;
     font-size: 0.75em;
