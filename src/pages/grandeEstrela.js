@@ -11,10 +11,10 @@ const GrandeEstrela = () => {
             <img className = {styles.fotoSimNao} src = {simNao}/>
         </div>
         <div className={styles.enviar}>
-            <p><a href="/obrigado">ENVIAR</a></p>
+            <span><a href="/obrigado">ENVIAR</a></span>
         </div>
         <div className={styles.deNota}>
-            <p><b>Como você avalia a sua experiência comigo?</b></p>
+            <span><b>Como você avalia a sua experiência comigo?</b></span>
         </div>
       <div className={styles.estrela10}><BrilhaEstrelinha totalStars={5} /></div>
       

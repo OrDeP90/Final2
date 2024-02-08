@@ -8,28 +8,28 @@ function Solucao3() {
     return (
     <div>
         <div className={styles.titulo}>
-            <p><b>Também sugiro seguir ou começar algum hobby</b></p>
+            <span>Também sugiro seguir ou começar algum hobby</span>
         </div>
         <div className={styles.opcoes}>
-            <p><b>Aqui estão algumas opções:</b></p>
+            <span>Aqui estão algumas opções:</span>
         </div>
         <div className={styles.corrida}>
-            <p><b>Culinária</b></p>
+            <span>Culinária</span>
         </div>
         <div className={styles.luta}>
-            <p><b>Teatro</b></p>
+            <span>Teatro</span>
         </div>
         <div className={styles.natacao}>
-            <p><b>Dança</b></p>
+            <span>Dança</span>
         </div>
         <div className={styles.academia}>
-            <p><b>Pintura</b></p>
+            <span>Pintura</span>
         </div>
         <div className={styles.ciclismo}>
-            <p><b>Costura</b></p>
+            <span>Costura</span>
         </div>
         <div className={styles.avalie}>
-            <p><b>AVALIE SUA EXPERIÊNCIA</b></p>
+            <span>AVALIE SUA EXPERIÊNCIA</span>
         </div>
         <div>
             <img className = {styles.mulherCozinhando} src = {comocozinha}/>

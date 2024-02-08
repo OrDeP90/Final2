@@ -577,6 +577,10 @@
 
 }
 
+.enviar a {
+    text-decoration: none;
+    color: #DDFFDE;
+}
 
 
 .star-rating {
@@ -599,8 +603,9 @@
   }
 
   .estrela10{
-    margin-top: 40vh;
-   margin-left: -30vh;
+    position: absolute;
+    top: 450px;
+    left: 325px;
 
-  }
+}
   
