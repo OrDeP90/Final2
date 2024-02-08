@@ -330,18 +330,21 @@
 
 }
 
-.sugestao b {
+.sugestao {
     color: #003802;
     top: 100px;
     text-align: center;
     font-family: "Raleway";
 }
 
-.profissionais b{ 
-    top: -100px;
+p.profissionais b{ 
+    position: absolute;
+    top: 120px;
     left: 0;
     text-align: left;
     font-size: 0.75em;
+    font-family: "Raleway";
+    letter-spacing: .08em
 }
 
 .titulo {
