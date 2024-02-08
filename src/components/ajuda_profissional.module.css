@@ -330,10 +330,11 @@
 
 }
 
-.sugestao {
+.sugestao b {
     color: #003802;
-    top: 0;
+    top: 100px;
     text-align: center;
+    font-family: "Raleway";
 }
 
 .profissionais b{ 
