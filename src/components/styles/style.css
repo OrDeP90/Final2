@@ -48,7 +48,7 @@ h3.anna{
   text-align: left;
 }
 
-p{
+p.anna{
   position: absolute;
   color: var(--dark-text, #003802);
   text-align: center;
