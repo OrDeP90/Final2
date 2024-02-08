@@ -470,6 +470,12 @@
     top: 600px;
 }
 
+.agradeceText {
+    z-index: 1;
+    top: -10px;
+    left: 0;
+}
+
 .agradece {
     /* Group 27 */
 

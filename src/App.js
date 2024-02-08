@@ -61,7 +61,7 @@ const App = () => {
                 <Route path="/sintomuitofinal" element={<Sintomuitofinal />} />
                 <Route path="/sintomuittofinal" element={<Sintomuittofinal />} />
                 <Route path="/avaliacao" element= {<GrandeEstrela/>}/>
-                <Route path="/obrigad" element= {<Obrigado/>}/>
+                <Route path="/obrigado" element= {<Obrigado/>}/>
             </Routes>
         </Router>
     );

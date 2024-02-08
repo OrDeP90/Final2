@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
-const Obrigado= ()=> {
+const Obrigado = ()=> {
 
     const navigate = useNavigate();
     const [redirect, setRedirect] = useState(false);
@@ -31,7 +31,7 @@ const Obrigado= ()=> {
             <img className = {styles.mulherAgradecendo} src = {agradece}/>
         </div>
         <div className={styles.agradece}>
-            <p><b>Obrigada pela sua avaliação, até a próxima!</b></p>
+            <p className = {styles.agradeceText}><b>Obrigada pela sua avaliação, até a próxima!</b></p>
         </div>
         
     </div>
