@@ -7,7 +7,7 @@ import './styles/style.css';
 const Page1 = () => {
   return (
     <div className = "App">   
-      <h1 class = "anna">OLÁ, EU SOU A</h1>
+      <h2 class = "anna">OLÁ, EU SOU A</h2>
       <h2 class = "anna">CLÁUDIA</h2>
       <h3 class = "anna">A ROBÔ DO DC</h3>
 

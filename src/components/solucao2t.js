@@ -9,25 +9,25 @@ function Solucao2t() {
     return (
     <div>
         <div className={styles.titulo}>
-            <p><b>Sugiro algumas atividades físicas</b></p>
+            <span>Sugiro algumas atividades físicas</span>
         </div>
         <div className={styles.opcoes}>
-            <p><b>Aqui estão algumas opções:</b></p>
+            <span>Aqui estão algumas opções:</span>
         </div>
         <div className={styles.corrida}>
-            <p><b>Corrida</b></p>
+            <span>Corrida</span>
         </div>
         <div className={styles.luta}>
-            <p><b>Luta</b></p>
+            <span>Luta</span>
         </div>
         <div className={styles.natacao}>
-            <p><b>Natação</b></p>
+            <span>Natação</span>
         </div>
         <div className={styles.academia}>
-            <p><b>Academia</b></p>
+            <span>Academia</span>
         </div>
         <div className={styles.ciclismo}>
-            <p><b>Ciclismo</b></p>
+            <span>Ciclismo</span>
         </div>
         <div>
             <img className = {styles.mulherCorrendo} src = {correcorre}/>
