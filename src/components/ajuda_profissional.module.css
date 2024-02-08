@@ -27,8 +27,17 @@
     z-index: 2;
 }
 
-.psicologo1 {
+.infoPsi1 {
     position: absolute;
+    top: -15px;
+    left: -120px;
+    z-index: 1;
+    font-size: 1em;
+}
+
+.psicologo1 {
+    position: fixed;
+    top: 0;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -39,7 +48,7 @@
     color: #003802;
 
     box-sizing: border-box;
-    position: absolute;
+    /* position: absolute; */
     width: 562px;
     height: 142px;
     left: 66px;
@@ -54,7 +63,13 @@
     align-items: center;
 }
 
-
+.infoPsi2 {
+    position: absolute;
+    top: -15px;
+    left: -120px;
+    z-index: 1;
+    font-size: 1em;
+}
 .psicologo2 {
     /* Carla Fernanda Simão (16) 99728-7615 */
 
@@ -272,6 +287,20 @@
     top: 45px;
 }
 
+.avalieTexto {
+    z-index: 1;
+    top: -20px;
+    left: -100px;
+    font-size: 1em;
+}
+
+.avalieLink:visited {
+    color: white;
+}
+
+.avalieLink:link {
+    text-decoration: none;
+}
 .avalie {
 
     font-family: 'Raleway';
@@ -298,6 +327,19 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.sugestao {
+    color: #003802;
+    top: 0;
+    text-align: center;
+}
+
+.profissionais {
+    top: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0.75em;
 }
 
 .titulo {
