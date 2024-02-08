@@ -25,7 +25,7 @@ import SintoMuitto from "./components/SintoMuitto";
 import Sintomuittofinal from "./components/sintomuittofinal";
 import Solucao2t from "./components/solucao2t";
 import Obrigado from "./pages/obrigadaAvaliacao"
-
+import Confirmacao_ansioso from "./components/Confirmacao_ansioso";
 import GrandeEstrela from "./pages/grandeEstrela";
 
 const App = () => {
@@ -51,6 +51,7 @@ const App = () => {
                 <Route path="/ConfirmacaoRaiva" element={<Confirmacao_raiva/>}/>
                 <Route path="/ConfirmacaoTedio" element={<Confirmacao_tedio/>}/>
                 <Route path="/ConfirmacaoFeliz" element={<Confirmacao_feliz/>}/>
+                <Route path="/ConfirmacaoAnsioso" element={<Confirmacao_ansioso/>}/>
                 <Route path="/solucao1" element={<Solucao1/>}/>
                 <Route path="/solucao2" element={<Solucao2/>}/>
                 <Route path="/solucao2t" element={<Solucao2t/>}/>

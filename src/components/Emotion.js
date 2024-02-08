@@ -58,12 +58,13 @@ function Emotion() {
       <header className="Emotion-header">
         {showSecondScreen && dominantEmotion === "Happy"? (navigate("/confirmacaoFeliz")) : (
             showSecondScreen && dominantEmotion === "Angry"? (navigate("/confirmacaoRaiva")) : (
+              showSecondScreen && dominantEmotion === "Surprise"? (navigate("/confirmacaoAnsioso")) : (
                 showSecondScreen && dominantEmotion === "Neutral"? (navigate("/confirmacaoTedio")) : (
                     showSecondScreen && dominantEmotion === "Disgust"? (navigate("/confirmacaoTriste")) : (
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <DominantEmotionComponent /><hr className="solid" style={{ width: "100%" }}></hr>
           </div>
-        ))))}
+        )))))}
       </header>
     </div>
   );
