@@ -9,6 +9,7 @@ import Page1 from './components/page1';
 import Page2 from './components/page2';
 import Page3 from './components/page3';
 import Final from './components/final-page';
+
 import DominantEmotionComponent from "./components/DominantEmotionComponent";
 import Emotion from "./components/Emotion";
 import Confirmacao_feliz from "./components/Confirmacao_feliz";
@@ -62,6 +63,7 @@ const App = () => {
                 <Route path="/sintomuittofinal" element={<Sintomuittofinal />} />
                 <Route path="/avaliacao" element= {<GrandeEstrela/>}/>
                 <Route path="/obrigad" element= {<Obrigado/>}/>
+                <Route path="/questionario" element= {<Questionario1/>}/>
             </Routes>
         </Router>
     );

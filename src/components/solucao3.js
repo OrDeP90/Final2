@@ -28,8 +28,8 @@ function Solucao3() {
         <div className={styles.ciclismo}>
             <span>Costura</span>
         </div>
-        <div className={styles.avalie}>
-            <span>AVALIE SUA EXPERIÊNCIA</span>
+        <div className={styles.avalie}>            
+            <span><a href='/avaliacao' >AVALIE SUA EXPERIÊNCIA</a></span>
         </div>
         <div>
             <img className = {styles.mulherCozinhando} src = {comocozinha}/>

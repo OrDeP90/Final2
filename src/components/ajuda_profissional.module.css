@@ -300,6 +300,12 @@
 
 }
 
+.avalie a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .titulo {
 
     position: absolute;
