@@ -330,6 +330,11 @@
 
 }
 
+.avalie a{
+    text-decoration: none;
+    color:white;
+}
+
 .sugestao {
     color: #003802;
     top: 100px;

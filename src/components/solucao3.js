@@ -31,7 +31,7 @@ function Solucao3() {
             <span>Costura</span>
         </div>
         <div className={styles.avalie}>
-            <span>AVALIE SUA EXPERIÊNCIA</span>
+            <span><a href='/avaliacao'>AVALIE SUA EXPERIÊNCIA</a></span>
         </div>
         <div>
             <img className = {styles.mulherCozinhando} src = {comocozinha}/>
