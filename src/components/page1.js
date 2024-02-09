@@ -3,8 +3,13 @@ import Imagem from './Imagem.js';
 import Button from './Button.js';
 import { Link } from 'react-router-dom';
 import './styles/style.css';
+import { MudarFace } from "../faces";
+
 
 const Page1 = () => {
+  
+  MudarFace('09');
+
   return (
     <div className = "App">   
       <h2 class = "anna">OLÁ, EU SOU A</h2>

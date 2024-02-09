@@ -5,8 +5,12 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import danapensando from "./dana-pensando.png"
 import containersolucao from "./container-solucao.png"
+import { MudarFace } from "../faces";
+
 const Sintomuitofinal = () => {
 
+  MudarFace('11');
+  
   const navigate = useNavigate();
   const [redirect, setRedirect] = useState(false);
 

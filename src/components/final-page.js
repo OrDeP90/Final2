@@ -1,9 +1,11 @@
 import React from 'react';
 import Imagem from './Imagem.js';
 import './styles/style.css';
+import { MudarFace } from "../faces";
 
 const Final = () => {
 
+  MudarFace('09');
   return (
     <div>
       <Imagem imagem="dana2.png" position='absolute' height="730px" width="730px" top="-13px" left="275px" />
