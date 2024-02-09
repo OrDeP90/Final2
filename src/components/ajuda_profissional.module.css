@@ -339,12 +339,13 @@
 
 p.profissionais b{ 
     position: absolute;
-    top: 120px;
-    left: 0;
+    top: 230px;
+    left: 100px;
     text-align: left;
     font-size: 0.75em;
     font-family: "Raleway";
-    letter-spacing: .08em
+    letter-spacing: .08em;
+    color: #003802;
 }
 
 .titulo {
