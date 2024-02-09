@@ -5,8 +5,11 @@ import raivaDana from "./images/raiva-dana.png"
 import tedioDana from "./images/tedio-dana.png"
 import "./styles/Global.css"
 import { useLocation } from 'react-router-dom';
+import { MudarFace } from "../faces";
+
 
 const Confirmacao = (props) => {
+    MudarFace('0A');
     let image = tristeDana
     let emocao = "triste"
     if(props === "Happy") {
@@ -23,6 +26,8 @@ const Confirmacao = (props) => {
     }
     else if(props === "Surprise") 
         emocao = "ansioso"
+
+
 return (    
     <div class = "grid-container center">
         <div class = "grid-container-item item-1">

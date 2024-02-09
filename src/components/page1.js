@@ -3,8 +3,13 @@ import Imagem from './Imagem.js';
 import Button from './Button.js';
 import { Link } from 'react-router-dom';
 import './styles/style.css';
+import { MudarFace } from "../faces";
+
 
 const Page1 = () => {
+  
+  MudarFace('09');
+
   return (
     <div className = "App">   
       <h2 class = "anna">OLÁ, EU SOU A</h2>
@@ -15,7 +20,7 @@ const Page1 = () => {
       
       <Imagem imagem="container.png" position='absolute' height="227px" width= "912px" top="512px" left="43px"/>
 
-      <p>Sou a robô de identificação de emoções que te ajuda a lidar com elas</p>
+      <p className='anna'>Sou a robô de identificação de emoções que te ajuda a lidar com elas</p>
 
       <Link to="/page2">
         <Button

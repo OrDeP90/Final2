@@ -3,8 +3,10 @@
 import React from "react";
 import dana from "../images/dana.png"
 import "./styles/Global.css"
+import { MudarFace } from "../faces";
 
 const Confirmacao = () => {
+    MudarFace('11');
 return (    
     <div class = "grid-container center">
         <div class = "grid-container-item item-1">

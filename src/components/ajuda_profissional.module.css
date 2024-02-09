@@ -1,4 +1,4 @@
-.Texto2 {
+.Texto2 p {
     /* Aqui estão alguns profissionais recomendados em São Carlos: */
 
     position: absolute;
@@ -27,8 +27,17 @@
     z-index: 2;
 }
 
-.psicologo1 {
+.infoPsi1 p {
     position: absolute;
+    top: -15px;
+    left: -120px;
+    z-index: 1;
+    font-size: 1em;
+}
+
+.psicologo1 {
+    position: fixed;
+    top: 0;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -39,7 +48,7 @@
     color: #003802;
 
     box-sizing: border-box;
-    position: absolute;
+    /* position: absolute; */
     width: 562px;
     height: 142px;
     left: 66px;
@@ -54,10 +63,17 @@
     align-items: center;
 }
 
-
+.infoPsi2 p b{
+    position: absolute;
+    top: -15px;
+    left: -120px;
+    z-index: 1;
+    font-size: 1em;
+}
 .psicologo2 {
     /* Carla Fernanda Simão (16) 99728-7615 */
 
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -272,6 +288,20 @@
     top: 45px;
 }
 
+.avalieTexto {
+    z-index: 1;
+    top: -20px;
+    left: -100px;
+    font-size: 1em;
+}
+
+.avalieLink:visited {
+    color: white;
+}
+
+.avalieLink:link {
+    text-decoration: none;
+}
 .avalie {
 
     font-family: 'Raleway';
@@ -300,11 +330,31 @@
 
 }
 
+<<<<<<< HEAD
 .avalie a{
     text-decoration: none;
     color: white;
 }
 
+=======
+.sugestao {
+    color: #003802;
+    top: 100px;
+    text-align: center;
+    font-family: "Raleway";
+}
+
+p.profissionais b{ 
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    text-align: left;
+    font-size: 0.75em;
+    font-family: "Raleway";
+    letter-spacing: .08em;
+    color: #003802;
+}
+>>>>>>> 19ca94bd5174f80e68bc28de30d504bdcc1591ef
 
 .titulo {
 
@@ -432,6 +482,12 @@
     height: 84px;
     left: 1150px;
     top: 600px;
+}
+
+.agradeceText {
+    z-index: 1;
+    top: -10px;
+    left: 0;
 }
 
 .agradece {

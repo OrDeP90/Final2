@@ -3,9 +3,11 @@ import Imagem from './Imagem.js';
 import ImageButton from './Button.js';
 import { Link } from 'react-router-dom';
 import './styles/style.css';
+import { MudarFace } from "../faces";
 
 
 const Page2 = () => {
+  MudarFace('35');
   return (
     <div>
       <Imagem imagem="dana2.png" position='absolute' height="751px" width= "751px" top="-75px" left="265px"/>

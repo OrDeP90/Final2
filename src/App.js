@@ -62,8 +62,12 @@ const App = () => {
                 <Route path="/sintomuitofinal" element={<Sintomuitofinal />} />
                 <Route path="/sintomuittofinal" element={<Sintomuittofinal />} />
                 <Route path="/avaliacao" element= {<GrandeEstrela/>}/>
+<<<<<<< HEAD
                 <Route path="/obrigad" element= {<Obrigado/>}/>
                 <Route path="/questionario" element= {<Questionario1/>}/>
+=======
+                <Route path="/obrigado" element= {<Obrigado/>}/>
+>>>>>>> 19ca94bd5174f80e68bc28de30d504bdcc1591ef
             </Routes>
         </Router>
     );
