@@ -2,8 +2,12 @@ import React from 'react';
 import medita from '../components/meditando.png';
 import styles from '../components/ajuda_profissional.module.css';
 import seta from '../components/seta.png'
+import { MudarFace } from "../faces";
 
 function Solucao4() {
+
+  MudarFace('09');
+
   return (
     <div>
       <div className={styles.titulo}>

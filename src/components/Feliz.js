@@ -2,6 +2,8 @@ import React, {useState,useEffect} from "react";
 import felizDana from "./images/tela-feliz.png";
 import { Navigate, useNavigate } from "react-router-dom";
 import "./styles/Global.css";
+import { MudarFace } from "../faces";
+
 
 const Feliz = () => {
 
@@ -26,6 +28,7 @@ const Feliz = () => {
     }
   }, [redirect, navigate]);
 
+   MudarFace('09');
 
     return (
         <div class = "grid-container center">

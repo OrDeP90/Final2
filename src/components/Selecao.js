@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import "./styles/Global.css"
 import thinkingPana from "./images/pana-thinking.png"
 import arrow from "./images/BsArrowRight.png"
+import { MudarFace } from "../faces";
 
 const Selecao = () => {
     const [selectedEmotion, setSelectedEmotion] = useState('')
     const handleOptionChange = ('onClick', event => {
         setSelectedEmotion(event.target.value)
     })
+
+    MudarFace('OA');
+
     return (
         <div class = "grid-container questionario1 center">
             <h1 class = "header">Qual emocao melhor te descreve agora?</h1>

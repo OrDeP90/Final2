@@ -1,10 +1,12 @@
 import React from 'react';
 import comocozinha from '../components/cozinhando.png'
 import styles from '../components/ajuda_profissional.module.css'
+import { MudarFace } from "../faces";
 
 
 
 function Solucao3() {
+    MudarFace('09');
     return (
     <div>
         <div className={styles.titulo}>

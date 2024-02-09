@@ -1,10 +1,13 @@
 import React from 'react';
 import psicologo from '../components/psicologo.png'
 import styles from '../components/ajuda_profissional.module.css'
+import { MudarFace } from "../faces";
 
 
 
 function Solucao1() {
+    MudarFace('09');
+    
     return (
     <div>
         <div className={styles.titulo}>

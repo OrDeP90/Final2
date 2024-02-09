@@ -2,13 +2,16 @@ import React,{useEffect,useState} from "react";
 import sorryPana from "./images/sorry-pana.png";
 import { Navigate, useNavigate } from "react-router-dom";
 import "./styles/Global.css";
+import { MudarFace } from "../faces";
 
 
 
 
 
 const SintoMuito = () => {    
-    
+  
+      MudarFace('11')
+
       const navigate = useNavigate();
       const [redirect, setRedirect] = useState(false);
     

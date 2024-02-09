@@ -2,8 +2,10 @@ import React from "react";
 import "./styles/Global.css"
 import thinkingPana from "./images/pana-thinking.png"
 import arrow from "./images/BsArrowRight.png"
+import { MudarFace } from "../faces";
 
 const Questionario1 = (props) => {
+    MudarFace('0A');
     let formValues = []
     if(props.emocao === "triste") {
         formValues = ["Preocupado", "Luto", "Cansado", "Deprimido", "Estressado", "Ansioso", "Solidão", "Frustrado"]
